@@ -1,0 +1,88 @@
+@InProceedings{pmlr-v267-zhu25i,
+  title = 	 {{CVE}-Bench: A Benchmark for {AI} Agents’ Ability to Exploit Real-World Web Application Vulnerabilities},
+  author =       {Zhu, Yuxuan and Kellermann, Antony and Bowman, Dylan and Li, Philip and Gupta, Akul and Danda, Adarsh and Fang, Richard and Jensen, Conner and Ihli, Eric and Benn, Jason and Geronimo, Jet and Dhir, Avi and Rao, Sudhit and Yu, Kaicheng and Stone, Twm and Kang, Daniel},
+  booktitle = 	 {Proceedings of the 42nd International Conference on Machine Learning},
+  pages = 	 {79850--79867},
+  year = 	 {2025},
+  editor = 	 {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry},
+  volume = 	 {267},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--19 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhu25i/zhu25i.pdf},
+  url = 	 {https://proceedings.mlr.press/v267/zhu25i.html},
+  abstract = 	 {Large language model (LLM) agents are increasingly capable of autonomously conducting cyberattacks, posing significant threats to existing applications. This growing risk highlights the urgent need for a real-world benchmark to evaluate the ability of LLM agents to exploit web application vulnerabilities. However, existing benchmarks fall short as they are limited to abstracted Capture-the-Flag competitions or lack comprehensive coverage. Building a benchmark for real-world vulnerabilities involves both specialized expertise to reproduce exploits and a systematic approach to evaluating unpredictable attacks. To address this challenge, we introduce CVE-Bench, a real-world cybersecurity benchmark based on critical-severity Common Vulnerabilities and Exposures. In CVE-Bench, we design a sandbox framework that enables LLM agents to exploit vulnerable web applications in scenarios that mimic real-world conditions, while also providing effective evaluation of their exploits. Our experiments show that the state-of-the-art agent framework can exploit up to 13% of the vulnerabilities.}
+}
+
+@inproceedings{NEURIPS2025_a9168f1c,
+ author = {Lee, Hwiwon and Zhang, Ziqi and Lu, Hanxiao and ZHANG, LINGMING},
+ booktitle = {Advances in Neural Information Processing Systems},
+ doi = {10.52202/085713-3878},
+ editor = {D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi and N. Chen},
+ pages = {116342--116378},
+ publisher = {Curran Associates, Inc.},
+ title = {SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2025/file/a9168f1c54e5147027f1e8cf83e1a775-Paper-Conference.pdf},
+ volume = {38, Main Conference},
+ year = {2025}
+}
+
+@inproceedings{gioacchini-etal-2025-autopenbench,
+    title = "{A}uto{P}en{B}ench: A Vulnerability Testing Benchmark for Generative Agents",
+    author = "Gioacchini, Luca  and
+      Delsanto, Alexander  and
+      Drago, Idilio  and
+      Mellia, Marco  and
+      Siracusano, Giuseppe  and
+      Bifulco, Roberto",
+    editor = "Potdar, Saloni  and
+      Rojas-Barahona, Lina  and
+      Montella, Sebastien",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: Industry Track",
+    month = nov,
+    year = "2025",
+    address = "Suzhou (China)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-industry.114/",
+    doi = "10.18653/v1/2025.emnlp-industry.114",
+    pages = "1615--1624",
+    ISBN = "979-8-89176-333-3",
+    abstract = "LLM agents show promise for vulnerability testing. We however lack benchmarks to evaluate and compare solutions. AutoPenBench covers this need offering an open benchmark for the evaluation of vulnerability testing agents. It includes 33 tasks, ranging from introductory exercises to actual vulnerable systems. It supports MCP, enabling the comparison of agent capabilities. We introduce milestones per task, allowing the comparison of intermediate steps where agents struggle. To illustrate the use of AutoPenBench we evaluate autonomous and human-assisted agent architectures. The former achieves 21{\%} success rates, insufficient for production, while human-assisted agents reach 64{\%} success, indicating a viable industrial path. AutoPenBench is offered as open source and enables fair comparison of agents."
+}
+
+@InProceedings{pmlr-v306-shi26r,
+  title = 	 {{C}yber{G}ym-{E}2{E}: Scalable Real-World Benchmark for {AI} Agents’ End-to-End Cybersecurity Capabilities},
+  author =       {Shi, Tianneng and Rheem, Robin and Jiang, Dongwei and Wang, Mona and De La Riega, Francisco and Wang, Zhun and Jiang, Jingzhi and Cheung, Alexander and Tai, Sean and Cha, Jonah and Tu, Jianhong and Han, Gabriel and Wang, Chenguang and He, Jingxuan and Guo, Wenbo and Song, Dawn},
+  booktitle = 	 {Proceedings of the 43rd International Conference on Machine Learning},
+  pages = 	 {112094--112108},
+  year = 	 {2026},
+  editor = 	 {Zhang, Tong and Dudik, Miroslav and Jaggi, Martin and Agarwal, Alekh and Li, Sharon and Schuurmans, Dale and Zhu, Jerry and Berkenkamp, Felix and Dong, Hanze and Bietti, Alberto},
+  volume = 	 {306},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--11 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26r/shi26r.pdf},
+  url = 	 {https://proceedings.mlr.press/v306/shi26r.html},
+  abstract = 	 {AI has the potential to transform cybersecurity by enabling systems that can autonomously detect, analyze, and remediate software vulnerabilities. However, existing cybersecurity evaluations of AI systems are limited in scale or scope, and fail to capture the end-to-end lifecycle of real-world software vulnerability discovery and remediation. To address this gap, we propose CyberGym-E2E, a large-scale and realistic end-to-end cybersecurity benchmark that comprehensively evaluates AI agents’ abilities across the full lifecycle of vulnerability discovery, PoC generation, and patch generation. CyberGym-E2E is comprehensive and scalable, as we build an automated, agent-enhanced pipeline for transforming open-source vulnerability data into realistic evaluation environments. Currently, the benchmark consists of 920 real-world vulnerabilities across 139 different open-source projects.}
+}
+
+@misc{he2026reprobenchbenchmarkingllmagents,
+      title={ReproBench: Benchmarking LLM Agents on Reproducing Vulnerability From Scratch}, 
+      author={Liang He and Sheng Wu and Haomiao Hao and Hongduo Zhao and Jia Yan and Purui Su},
+      year={2026},
+      eprint={2609.34450},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2609.34450}, 
+}
+
+@ARTICLE{11580353,
+  author={Addis, Robel and Porter, Kiran and Ryan, Jayden and Stull, Micah and Xu, Shengjie and Wagner, Paul and Honomichl, Robert and Forsyth, Steven},
+  journal={IEEE Access}, 
+  title={LLM-Based Intelligent Agents for Cybersecurity: A Tutorial and Survey of Automated Vulnerability Discovery}, 
+  year={2026},
+  volume={14},
+  number={},
+  pages={100884-100917},
+  keywords={Modeling;Large language models;Cognition;Cognitive systems;Tools;Security;Surveys;Penetration testing;Context;Computer security;Large language models (LLMs);AI agents;cybersecurity;autonomous penetration testing;prompt engineering;vulnerability discovery;static application security testing (SAST);multi-agent systems;chain-of-thought (CoT);ReAct;Plan-then-Execute (PtE)},
+  doi={10.1109/ACCESS.2026.3707573}}
